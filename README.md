@@ -1,3 +1,3 @@
 # angular-learning
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-nlb3uh)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/atman-my-first-angular-project)
