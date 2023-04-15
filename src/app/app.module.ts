@@ -6,20 +6,20 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      /*
-      router-outlet, routerLink の遷移先を設定
-       */
+
+      /* router-outlet, routerLink の遷移先を設定 */
+      RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'topbar', component: TopBarComponent },
     ]),
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent],
+  declarations: [AppComponent, TopBarComponent, ProductListComponent, ProductDetailComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
