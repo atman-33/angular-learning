@@ -18,6 +18,10 @@ export class ProductListComponent {
     */
     window.alert('The product has been shared!');
   }
+
+  notify() {
+    window.alert('お知らせを受け取ります！');
+  }
 }
 
 /*
