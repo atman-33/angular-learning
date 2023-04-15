@@ -9,7 +9,7 @@ export class ProductAlertsComponent {
   // 別コンポーネントからプロパティを受け取る際は、@Input() を付与
   @Input() name!: string;
   
-  // 別コンポーネントからイベントを受け取る際は、@Output() を付与
+  // このコンポーネントからイベントを送る際は、@Output() を付与
   @Output() onNotify = new EventEmitter();
 
   constructor() {}
