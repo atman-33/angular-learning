@@ -12,6 +12,10 @@ export class ProductListComponent {
   products: Product[] = products;
 
   share() {
+    /*
+    Typescript では、文字列を "/' どちらでも表記可能だが、"を推奨。
+    また、htmlは、"のみ利用可能。
+    */
     window.alert('The product has been shared!');
   }
 }
