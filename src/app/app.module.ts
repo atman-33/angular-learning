@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
       { path: 'topbar', component: TopBarComponent },
     ]),
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent, ProductDetailComponent],
+  declarations: [AppComponent, TopBarComponent, ProductListComponent, ProductDetailComponent, ProductAlertsComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
